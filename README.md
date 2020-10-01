@@ -1,9 +1,11 @@
 # PixelChewing
 Class assignment - GUI with pixels and threads
-At first set square edge length, amount of transitions and amount of thread for process.
-Then you will have a board and you can switch pixels with your mouse.
-when ready press "GO" and the pixels will change theirs state depends on TRANSITION RULE - see below.
+At first, set square edge length, amount of transitions and amount of thread for process.
+Then you'll get a board with "ON" pixels. You can switch pixels with your mouse.
+When u ready press "GO" and the pixels will change theirs state depends on the TRANSITIONS RULE - see below.
 
-Square egde length is the amount of pixels in the edge of the square.
+# TRANSITIONS RULE
 Transition rule: if a pixel has at least one white neighbor it becomes white.
-Process: each tread run an individual pixel and check his neighbors - after all pixels finished the board repaint
+Process: each tread represent an individual pixel and check his neighbors. When all threads done, the board repaint.
+
+* 'Square egde length' is the amount of pixels in the edge of the square.
